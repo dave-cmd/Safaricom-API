@@ -48,6 +48,7 @@ def lipa_request():
     "TransactionDesc": Config.TransactionDesc
     }
   
+    
     response = requests.post(api_url, json = request, headers=headers)
   
     print (response.text)
